@@ -34,7 +34,7 @@ public class Main {
         void deduct(long amt) { balance -= amt; }
     }
 
-    // --=== [Load & Save Coupons] ===--
+    // --=== [Load & Save Coupons for customer] ===--
     static Map<String, Long> loadCoupons(File f) {
         Map<String, Long> map = new HashMap<>();
         if (!f.exists()) return map;
